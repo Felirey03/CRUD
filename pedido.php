@@ -1,13 +1,17 @@
 <html>
+<!-- BOOSTRAP -->
 <link rel="stylesheet" href="conexion.php">
 <link rel="stylesheet" href="bootstrap-4.0.0\dist\css\bootstrap.min.css">
 <link href="bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
 <head>
+	<!-- Nombre titulo e imagen -->
 <title>Contacto</title>
+<link rel="shortcut icon" href="hulki.jpeg">
 <link rel="stylesheet" type="text/css" href="conexion.php" />
 </head>
-<body>
 
+<body>
+	<!-- Barra de Navegacion -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="inicio.php">Reyzarra</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +27,10 @@
         <a class="nav-link" href="productos.php">Productos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="pedido.php">Pedir</a>
+        <a class="nav-link" href="pedido.php">Pedido</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="contacto.php">Contacto</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -34,6 +41,8 @@
 </nav>
     </div>
   </div>
+ <center> 
+	<!-- Campo registro -->
   <form action="registrar.php" method="post">
 	<div class="form-container">
 			<div class="input-row">
@@ -53,8 +62,8 @@
 			<br>
 			<div>
 				<p>
-					Producto
-					<select name="Producto">
+					Producto: 
+					<select name="producto">
 					<option>Vinilo</option>
 					<option>Carteleria</option>
 					</select>
@@ -64,6 +73,7 @@
 				<input type="submit" name="enviar" class=" btn btn-primary" value="✅Enviar" />
 			</div>
 	</form>
+</center>
 	</div>
 </body>
 </html>
