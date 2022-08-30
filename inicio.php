@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link rel="shortcut icon" href="hulki.jpeg">
     <link rel="stylesheet" type="text/css" href="conexion.php"/>
 </head>
 <body>
@@ -27,6 +28,12 @@
       <li class="nav-item">
         <a class="nav-link" href="productos.php">Productos</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pedido.php">Pedido</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.php">Contacto</a>
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -36,5 +43,7 @@
 </nav>
     </div>
   </div>
+
+
 </body>
 </html>
