@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link rel="shortcut icon" href="hulki.jpeg">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,7 +27,10 @@
         <a class="nav-link" href="productos.php">Productos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="pedido.php">Pedir</a>
+        <a class="nav-link" href="pedido.php">Pedido</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.php">Contacto</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
